@@ -1,7 +1,7 @@
 class CreateAppointments < ActiveRecord::Migration[5.0]
   def change
     create_table :appointments do |t|
-      t.integer :appointment_datetime
+      t.string :appointment_datetime
 
       t.timestamps
     end
